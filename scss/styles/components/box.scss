@@ -1,9 +1,7 @@
-// Snippets of reusable CSS to develop faster and keep code readable
+// Styles - https://github.com/adamwdraper/styles
+// Boxes 0.0.1
 // -----------------------------------------------------------------
 
-
-// Box
-// -----------------------
 .box {
     border: 1px solid $boxBorderColor;
     @include border-radius($boxBorderRadius);

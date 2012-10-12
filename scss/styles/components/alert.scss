@@ -1,8 +1,7 @@
-// Snippets of reusable CSS to develop faster and keep code readable
+// Styles - https://github.com/adamwdraper/styles
+// Alerts 0.0.1
 // -----------------------------------------------------------------
 
-// Alerts
-// -----------------------
 @mixin alert-type-color($type) {
     border: 1px solid lighten($type, $alertBorderVarient);
     color: darken($type, $alertColorVarient);

@@ -1,9 +1,7 @@
-// Snippets of reusable CSS to develop faster and keep code readable
+// Styles - https://github.com/adamwdraper/styles
+// Buttons 0.0.1
 // -----------------------------------------------------------------
 
-
-// Button
-// -----------------------
 @mixin button-type-color($type) {
     color: white;
     @include gradient-vertical(lighten($type, $buttonGradientVarient), darken($type, $buttonGradientVarient));

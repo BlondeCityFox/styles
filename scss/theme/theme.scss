@@ -1,4 +1,6 @@
+// Styles - https://github.com/adamwdraper/styles
 // This is a convenient boilerplate scss file for starting a project with Styles
+// -----------------------------------------------------------------
 
 // styles bootstrap
 @import "../styles/bootstrap/bootstrap";
@@ -10,22 +12,24 @@
 @import "variables";
 
 // // import any styles components
-@import "../styles/components/nav-bar";
-@import "../styles/components/tabs";
-@import "../styles/components/boxes";
-@import "../styles/components/buttons";
-@import "../styles/components/icons";
-@import "../styles/components/dropdown";
-@import "../styles/components/inputs";
-@import "../styles/components/alerts";
+@import "../styles/components/alert";
+@import "../styles/components/auto-suggest";
+@import "../styles/components/box";
+@import "../styles/components/button";
 @import "../styles/components/close";
 @import "../styles/components/code";
+@import "../styles/components/dropdown";
+@import "../styles/components/icon";
+@import "../styles/components/input";
 @import "../styles/components/modal";
-@import "../styles/components/loader";
-@import "../styles/components/auto-suggest";
+@import "../styles/components/nav-bar";
+@import "../styles/components/tab";
+@import "../styles/components/table";
 @import "../styles/components/tag-cloud";
-@import "../styles/components/tables";
 
+
+// import project override variables
+@import "icons";
 
 /*!
  * 
