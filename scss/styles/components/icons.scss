@@ -3,15 +3,12 @@
 // -----------------------------------------------------------------
 
 @mixin icon-type-color($type) {
-    &:before {
-        color: $type;
-    }
+    color: $type;
 }
 
 i {
-    &:before {
-        color: $iconColor;
-    }
+    color: $iconColor;
+    @include transition(all .3s ease);
 
     @for $i from 1 through length($typeList) {
         &.#{nth($typeList, $i)} {
@@ -20,10 +17,7 @@ i {
     }
 
     &.disabled {
-
-        &:before {
-            opacity: 0.5
-        }
+        opacity: 0.5
     }
 
     &.shadow {
