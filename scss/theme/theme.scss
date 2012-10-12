@@ -1,0 +1,140 @@
+// This is a convenient boilerplate scss file for starting a project with Styles
+
+// styles bootstrap
+@import "../styles/bootstrap/bootstrap";
+
+// import styles vars
+@import "../styles/variables";
+
+// import project override variables
+@import "variables";
+
+// // import any styles components
+@import "../styles/components/nav-bar";
+@import "../styles/components/tabs";
+@import "../styles/components/boxes";
+@import "../styles/components/buttons";
+@import "../styles/components/icons";
+@import "../styles/components/dropdown";
+@import "../styles/components/inputs";
+@import "../styles/components/alerts";
+@import "../styles/components/close";
+@import "../styles/components/code";
+@import "../styles/components/modal";
+@import "../styles/components/loader";
+@import "../styles/components/auto-suggest";
+@import "../styles/components/tag-cloud";
+@import "../styles/components/tables";
+
+
+/*!
+ * 
+ *  Begin Project CSS
+ *
+ */
+
+// Style Defaults ------------------------------
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: $bodyBackground;
+    padding: 0;
+    margin: 0;
+    font-family: $sansFontFamily;
+    color: $textColor;
+    font-size: $baseFontSize;
+    line-height: $baseLineHeight;
+}
+
+a {
+    color: $link;
+    text-decoration: none;
+    @include transition(color .3s ease);
+
+    &:hover {
+        color: $linkHover;
+        text-decoration: none;
+    }
+
+    &:active {
+
+    }
+
+    &:visited {
+
+    }
+}
+
+p {
+    margin: .5em 0;
+}
+
+h2 {
+    font-size:1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1.15em;
+    margin: .7em 0;
+}
+
+h5 {
+    font-size:1.1em;
+    margin: .5em 0;
+}
+
+h6 {
+    font-size:1em;
+    margin: .3em 0;
+}
+
+
+ol, ul {
+    list-style-type: none;
+}
+
+.disabled {
+    @include opacity($disabledOpacity);
+    cursor: not-allowed;
+}
+
+.caption {
+    font-size: .8em;
+    line-height: 1.2em;
+    color: lighten($grayDark, 10%);
+}
+
+
+// Media Queries ------------------------------
+// Smartphones
+@media (max-width: 480px) {
+
+}
+
+// Smartphone and Tablet Devices
+@media (max-width: 767px) {
+
+}
+ 
+// Portrait tablet
+@media (min-width: 768px) {
+
+}
+ 
+// Landscape tablet or desktop
+@media (min-width: 981px) {
+
+}
+ 
+// Large desktop
+@media (min-width: 1210px) {
+
+}

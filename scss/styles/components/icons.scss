@@ -1,0 +1,33 @@
+// Icons.scss
+// Snippets of reusable CSS to develop faster and keep code readable
+// -----------------------------------------------------------------
+
+@mixin icon-type-color($type) {
+    &:before {
+        color: $type;
+    }
+}
+
+i {
+    &:before {
+        color: $iconColor;
+    }
+
+    @for $i from 1 through length($typeList) {
+        &.#{nth($typeList, $i)} {
+            @include icon-type-color(nth($typeVarsList, $i));
+        }
+    }
+
+    &.disabled {
+
+        &:before {
+            opacity: 0.5
+        }
+    }
+
+    &.shadow {
+        text-shadow: 0 -1px 1px rgba(0,0,0,.6);
+    }
+
+}
