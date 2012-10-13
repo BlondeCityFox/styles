@@ -72,15 +72,54 @@ a {
     }
 }
 
-h3 {
+p {
+    margin: .5em 0;
+}
+
+h1 {
+    font-size:1.75em;
+}
+
+h2 {
+    font-size:1.5em;
     color: $grayDark;
-    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.25em;
 }
 
 h4 {
+    font-size: 1.15em;
+    margin: .7em 0;
     color: $gray;
-    font-size: 1.2em;
     margin-bottom: .4em;
+}
+
+h5 {
+    font-size:1.1em;
+    margin: .5em 0;
+}
+
+h6 {
+    font-size:1em;
+    margin: .3em 0;
+}
+
+
+ol, ul {
+    list-style-type: none;
+}
+
+.disabled {
+    @include opacity($disabledOpacity);
+    cursor: not-allowed;
+}
+
+.caption {
+    font-size: .8em;
+    line-height: 1.2em;
+    color: lighten($grayDark, 10%);
 }
 
 .header-bar {
