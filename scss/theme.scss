@@ -12,10 +12,20 @@
 @import "variables";
 
 // // import any styles components
+@import "styles/components/alert";
+@import "styles/components/auto-suggest";
+@import "styles/components/box";
 @import "styles/components/button";
-@import "styles/components/icon";
+@import "styles/components/close";
 @import "styles/components/code";
+@import "styles/components/dropdown";
+@import "styles/components/icon";
+@import "styles/components/input";
+@import "styles/components/modal";
+@import "styles/components/nav-bar";
+@import "styles/components/tab";
 @import "styles/components/table";
+@import "styles/components/tag-cloud";
 
 // import any project specific files
 @import "icons";
