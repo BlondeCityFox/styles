@@ -1,5 +1,5 @@
 // Styles - https://github.com/adamwdraper/styles
-// Tag Cloud 0.0.1
+// Tag Cloud 0.0.2
 // -----------------------------------------------------------------
 
 @mixin tag-cloud-type($type) {
@@ -16,6 +16,7 @@
 }
 
 ul {
+    list-style-type: none;
 
     &.tag-cloud {
         padding: 0;
