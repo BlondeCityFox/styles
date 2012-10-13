@@ -3,32 +3,28 @@
 // -----------------------------------------------------------------
 
 // styles bootstrap
-@import "../styles/bootstrap/bootstrap";
-
-// import styles vars
-@import "../styles/variables";
+@import "styles/bootstrap";
 
 // import project override variables
 @import "variables";
 
 // // import any styles components
-@import "../styles/components/alert";
-@import "../styles/components/auto-suggest";
-@import "../styles/components/box";
-@import "../styles/components/button";
-@import "../styles/components/close";
-@import "../styles/components/code";
-@import "../styles/components/dropdown";
-@import "../styles/components/icon";
-@import "../styles/components/input";
-@import "../styles/components/modal";
-@import "../styles/components/nav-bar";
-@import "../styles/components/tab";
-@import "../styles/components/table";
-@import "../styles/components/tag-cloud";
+@import "styles/components/alert";
+@import "styles/components/auto-suggest";
+@import "styles/components/box";
+@import "styles/components/button";
+@import "styles/components/close";
+@import "styles/components/code";
+@import "styles/components/dropdown";
+@import "styles/components/icon";
+@import "styles/components/input";
+@import "styles/components/modal";
+@import "styles/components/nav-bar";
+@import "styles/components/tab";
+@import "styles/components/table";
+@import "styles/components/tag-cloud";
 
-
-// import project override variables
+// import any project specific files
 @import "icons";
 
 /*!
@@ -75,6 +71,10 @@ a {
 
 p {
     margin: .5em 0;
+}
+
+h1 {
+    font-size:1.75em;
 }
 
 h2 {
