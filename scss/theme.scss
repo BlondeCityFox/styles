@@ -111,17 +111,6 @@ ol, ul {
     list-style-type: none;
 }
 
-.disabled {
-    @include opacity($disabledOpacity);
-    cursor: not-allowed;
-}
-
-.caption {
-    font-size: .8em;
-    line-height: 1.2em;
-    color: lighten($grayDark, 10%);
-}
-
 .header-bar {
     position: fixed;
     background: $sColor;
@@ -192,7 +181,7 @@ ol, ul {
     }
 }
 
-.footer {
+body > .footer {
     background: white;
 
     .inner {
@@ -335,7 +324,7 @@ ol, ul {
         }
     }
 
-    .footer {
+    body > .footer {
         display: block;
         position: fixed;
         bottom: 0;
@@ -384,7 +373,7 @@ ol, ul {
         }
     }
 
-    .footer {
+    body > .footer {
 
         .inner {
             padding: 0 0 0 4em;
