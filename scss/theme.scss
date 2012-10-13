@@ -101,22 +101,6 @@ h6 {
 }
 
 
-ol, ul {
-    list-style-type: none;
-}
-
-.disabled {
-    @include opacity($disabledOpacity);
-    cursor: not-allowed;
-}
-
-.caption {
-    font-size: .8em;
-    line-height: 1.2em;
-    color: lighten($grayDark, 10%);
-}
-
-
 // Media Queries ------------------------------
 // Smartphones
 @media (max-width: 480px) {

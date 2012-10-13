@@ -27,3 +27,14 @@
   background-color: transparent;
   border: 0;
 }
+
+.disabled {
+    @include opacity($disabledOpacity);
+    cursor: not-allowed;
+}
+
+.caption {
+    font-size: .8em;
+    line-height: 1.2em;
+    color: lighten($grayDark, 10%);
+}
